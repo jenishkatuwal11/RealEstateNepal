@@ -46,11 +46,13 @@ function App() {
         <Route path="/roomdetails/:id" element={<RoomDetails />} />
         <Route path="/project" element={<Project />} />
         <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/feature-proper
-        ties" element={<FeatureProperties />} />
+        <Route
+          path="/feature-proper
+        ties"
+          element={<FeatureProperties />}
+        />
         <Route path="/admin-login" element={<AdminLogin />} />
         <Route path="/properties/:type" element={<BuyProperties />} />
-        <Route path="/Buy" element={<buy />} /> {/* Dynamic route */}
         {/* Admin Routes with nested structure */}
         <Route path="/dashboard/*" element={<AdminDashboard />}>
           <Route path="profile" element={<Profile />} />
